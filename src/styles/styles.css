@@ -1,19 +1,33 @@
 body {
     background-color:  pink;
 }
-#title{
-    margin-top: -60px;
-}
 
 h1 {
     text-align: center;
+    margin-top: -60px;
+}
+
+.smiley {
+    transform: scale(0.6);
+}
+@media (max-width: 1500px) {
+    .smiley {
+      display: none; /* Hide the element for screens with a width <= 600px */
+    }
 }
 
 main {
     text-align: center;
     display: block;
+    margin-bottom: 2%;
 }
 
-#grossMargin {
-    margin-left: 150px;
+footer {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    margin-top: 100px;
+    padding: 1%;
+    background-color: rgb(240, 99, 169, 0.5);
+    border: 2px solid black;
+    text-align: center;
 }
