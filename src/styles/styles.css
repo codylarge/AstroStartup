@@ -4,14 +4,14 @@ body {
 
 h1 {
     text-align: center;
-    margin-top: -60px;
+    margin-top: -40px
 }
-
-.smiley {
-    transform: scale(0.6);
+ 
+.download {
+    transform: scale(0.7);
 }
 @media (max-width: 1500px) {
-    .smiley {
+    .download {
       display: none; /* Hide the element for screens with a width <= 600px */
     }
 }

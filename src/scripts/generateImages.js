@@ -14,6 +14,9 @@ const imageUrls = [
   "https://media.giphy.com/media/Br0Bgp2vKXYwV0p65T/giphy.gif",
 ];
 
+//Smiley
+// Google: https://media.giphy.com/media/qNSFklvPnXQ4tOcxLh/giphy.gif
+
 const imageContainer = document.getElementById("image-container");
 
 imageUrls.forEach((url) => {
