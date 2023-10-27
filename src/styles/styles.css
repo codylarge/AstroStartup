@@ -1,18 +1,21 @@
 body {
-    background-color:  pink;
+    background-image: url('../../public/gifbackground.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 h1 {
     text-align: center;
-    margin-top: -40px
+    margin-top: -10px;
+    margin-bottom: -35px;
 }
  
-.download {
-    transform: scale(0.7);
+.smiley {
+    transform: scale(0.5);
 }
 @media (max-width: 1500px) {
-    .download {
-      display: none; /* Hide the element for screens with a width <= 600px */
+    .smiley {
+      display: none;
     }
 }
 
@@ -20,6 +23,10 @@ main {
     text-align: center;
     display: block;
     margin-bottom: 2%;
+}
+
+.marginLeftGif {
+    margin-left: 75px;
 }
 
 footer {
