@@ -1,0 +1,19 @@
+body {
+    background-color:  pink;
+}
+#title{
+    margin-top: -60px;
+}
+
+h1 {
+    text-align: center;
+}
+
+main {
+    text-align: center;
+    display: block;
+}
+
+#grossMargin {
+    margin-left: 150px;
+}
