@@ -2,6 +2,7 @@ body {
     background-image: url('../../public/gifbackground.jpg'); 
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 h1 {
@@ -11,7 +12,7 @@ h1 {
 }
  
 .smiley {
-    transform: scale(0.5);
+    display: inline;
 }
 @media (max-width: 1500px) {
     .smiley {
